@@ -1,47 +1,42 @@
 body{
     margin: 0%;
     padding: 0%;
-    font-family: sans-serif;
-
 }
 .navBar{
-    background-color: #171e27;
+    background-color: white;
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     transition: 0.5s;
 }
 
-.navBar img:first-child {
+.navBar img{
     padding: 14px 10px 15px 160px;
     width: 10%;
     height: auto;
 }
 
-.navBar img:last-child{
-    padding: 0px 10px 20px 10px;
-    width: 2%;
-    height: auto;
-}
 
 .navBar .rightBar{
-    color: white;
-    float: right;
-    padding: 14px 10px 15px 100px;
+    color: #7b8b8e;
+    position: absolute;
+    left: 1000px;
+    font: inherit;
+ 
 }
-
 .navBar .rightBar ul{
     display: flex;
 }
 
 .navBar .rightBar li{
     list-style: none;
-    padding: 10px
+    padding: 15px
 }
 
-.navBar .leftBar{
-    color: white;
+.navBar .rightBar li:last-child{
+    color: #5fcf80;
 }
+
 
 
 
