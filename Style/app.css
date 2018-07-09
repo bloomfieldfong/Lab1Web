@@ -14,18 +14,24 @@ body{
     padding: 14px 10px 15px 160px;
     width: 10%;
     height: auto;
+    
 }
-
 
 .navBar .rightBar{
     color: #7b8b8e;
     position: absolute;
     left: 1000px;
-    font: inherit;
+    src: url(Font\GothamRounded-Bold.otf);
+    font-family: "GothamRounded-Bold", Arial, Helvetica, sans-serif;
+    display: flex;
  
-}
+}   
 .navBar .rightBar ul{
     display: flex;
+}
+
+.navBar .rightBar li:hover{
+    color: #585858;
 }
 
 .navBar .rightBar li{
@@ -37,7 +43,70 @@ body{
     color: #5fcf80;
 }
 
+.navBar .rightBar li:last-child:hover{
+    color: #088A08;
+}
 
+
+section.section1{
+    position: absolute;
+    background-image: url("https://static.teamtreehouse.com/assets/views/marketing/home/homepage-hero-6b54d9398fb6767e848cfcb92bce53b465c49d29a5c990e11483e42c797c121d.png");
+    width: 100%;
+    height: 80%;
+}
+
+section.section1 .parrafo{
+    color: white;
+    font-size: 250%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 50%;
+    inline-size: 35%;
+    height: 200px;
+    display: inline-block;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+section.section1 .sign-up{
+    
+    width: 50%; 
+    float: right;
+
+}
+
+
+section.section1 .sign-up .box{
+    
+    width: 260px;
+    border: 220px solid white;
+    margin-top: 100px; 
+
+}
+
+section.section1 .sign-up .header-box{
+    
+    width: 500px;
+    border: 30px solid gray;
+    position: absolute;
+    margin-left: 0px;
+}
+
+section.section1 .stadistics{
+    color: white;
+    font-size: 200%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 220px;
+    margin-left: 400px;
+}
+
+
+section.section2{
+    margin-top: 750px;
+    position: absolute;
+    background-image: url("https://static.teamtreehouse.com/assets/views/marketing/home/homepage-texture-34e7c496750ff276b021f3b2b83238c3177c2c30564885d11d181c4e795a844b.png");
+    width: 100%;
+    height: 100%;
+}
 
 
 
